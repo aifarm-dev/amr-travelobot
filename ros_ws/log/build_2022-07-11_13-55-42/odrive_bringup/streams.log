@@ -1,0 +1,46 @@
+[0.049s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/odrive_bringup -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/odrive_bringup
+[0.277s] -- The C compiler identification is GNU 9.4.0
+[0.491s] -- The CXX compiler identification is GNU 9.4.0
+[0.511s] -- Check for working C compiler: /usr/bin/cc
+[0.777s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.780s] -- Detecting C compiler ABI info
+[1.181s] -- Detecting C compiler ABI info - done
+[1.190s] -- Detecting C compile features
+[1.191s] -- Detecting C compile features - done
+[1.198s] -- Check for working CXX compiler: /usr/bin/c++
+[1.507s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.512s] -- Detecting CXX compiler ABI info
+[1.817s] -- Detecting CXX compiler ABI info - done
+[1.862s] -- Detecting CXX compile features
+[1.864s] -- Detecting CXX compile features - done
+[1.881s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.002s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.003s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.248s] -- Configuring done
+[3.257s] -- Generating done
+[3.262s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/odrive_bringup
+[3.274s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/odrive_bringup -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/odrive_bringup
+[3.284s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_bringup -- -j4 -l4
+[3.427s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_bringup -- -j4 -l4
+[3.513s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_bringup
+[3.550s] -- Install configuration: ""
+[3.551s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/config
+[3.552s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/config/odrive_controllers.yaml
+[3.553s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/launch
+[3.553s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/launch/odrive.launch.py
+[3.554s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/ament_index/resource_index/package_run_dependencies/odrive_bringup
+[3.554s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/ament_index/resource_index/parent_prefix_path/odrive_bringup
+[3.555s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/ament_prefix_path.sh
+[3.556s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/ament_prefix_path.dsv
+[3.556s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/path.sh
+[3.557s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/path.dsv
+[3.558s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.bash
+[3.559s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.sh
+[3.559s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.zsh
+[3.560s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.dsv
+[3.560s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/package.dsv
+[3.561s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/ament_index/resource_index/packages/odrive_bringup
+[3.562s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/cmake/odrive_bringupConfig.cmake
+[3.563s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/cmake/odrive_bringupConfig-version.cmake
+[3.563s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/package.xml
+[3.569s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_bringup
