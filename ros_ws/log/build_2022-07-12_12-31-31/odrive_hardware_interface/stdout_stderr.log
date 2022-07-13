@@ -1,0 +1,36 @@
+-- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 1.3.0 (/opt/ros/foxy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface
+[35m[1mScanning dependencies of target odrive_usb[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/odrive_usb.dir/src/odrive_usb.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libodrive_usb.so[0m
+[ 50%] Built target odrive_usb
+[35m[1mScanning dependencies of target odrive_hardware_interface[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+   20 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/odrive_hardware_interface.dir/build.make:63: CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/odrive_hardware_interface.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

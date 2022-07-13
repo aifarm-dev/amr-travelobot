@@ -1,0 +1,35 @@
+[0.236s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/diffbot_description
+[0.411s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.520s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.821s] -- Configuring done
+[1.853s] -- Generating done
+[1.859s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/diffbot_description
+[1.877s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/diffbot_description
+[1.881s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/diffbot_description -- -j4 -l4
+[2.047s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/diffbot_description -- -j4 -l4
+[2.201s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/diffbot_description
+[2.257s] -- Install configuration: ""
+[2.259s] -- Execute custom install script
+[2.264s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/config/diffbot.rviz
+[2.267s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.gazebo.xacro
+[2.269s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/gazebo/diffbot.materials.xacro
+[2.273s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/ros2_control/diffbot_system.ros2_control.xacro
+[2.275s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot.urdf.xacro
+[2.276s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/urdf/diffbot_system.urdf.xacro
+[2.278s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/ament_index/resource_index/package_run_dependencies/diffbot_description
+[2.280s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/ament_index/resource_index/parent_prefix_path/diffbot_description
+[2.282s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.sh
+[2.284s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/environment/ament_prefix_path.dsv
+[2.286s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/environment/path.sh
+[2.290s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/environment/path.dsv
+[2.293s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/local_setup.bash
+[2.296s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/local_setup.sh
+[2.299s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/local_setup.zsh
+[2.301s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/local_setup.dsv
+[2.302s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/package.dsv
+[2.342s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/ament_index/resource_index/packages/diffbot_description
+[2.343s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig.cmake
+[2.345s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/cmake/diffbot_descriptionConfig-version.cmake
+[2.349s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/diffbot_description/share/diffbot_description/package.xml
+[2.479s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/diffbot_description

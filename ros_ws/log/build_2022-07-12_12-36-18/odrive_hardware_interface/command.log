@@ -1,0 +1,2 @@
+Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4

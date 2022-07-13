@@ -1,0 +1,1 @@
+/home/dr/amr-travelobot/ros_ws/build/diffbot_description/ament_cmake_core/diffbot_descriptionConfig-version.cmake

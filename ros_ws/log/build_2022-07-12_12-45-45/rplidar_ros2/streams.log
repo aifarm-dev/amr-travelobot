@@ -1,0 +1,116 @@
+[0.191s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2 -- -j4 -l4
+[0.488s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.689s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.040s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.454s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.513s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.959s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.969s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.847s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.475s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[5.870s] -- Configuring done
+[5.950s] -- Generating done
+[5.960s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2
+[6.116s] [35m[1mScanning dependencies of target rplidar_scan_publisher[0m
+[6.606s] [ 14%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/src/rplidar_scan_publisher.cpp.o[0m
+[6.686s] [ 28%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/net_socket.cpp.o[0m
+[6.694s] [ 42%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/net_serial.cpp.o[0m
+[6.705s] [ 57%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/arch/linux/timer.cpp.o[0m
+[9.608s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[9.609s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[9.610s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[9.611s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.612s]    59 |     _u8 data[[01;35m[K0[m[K];
+[9.613s]       |              [01;35m[K^[m[K
+[9.616s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[9.617s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[9.617s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[9.618s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[9.619s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[9.620s]       |                  [01;35m[K^[m[K
+[9.961s] [ 71%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/hal/thread.cpp.o[0m
+[10.377s] [ 85%] [32mBuilding CXX object CMakeFiles/rplidar_scan_publisher.dir/sdk/src/rplidar_driver.cpp.o[0m
+[11.749s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[11.750s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[11.750s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[11.751s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.751s]    59 |     _u8 data[[01;35m[K0[m[K];
+[11.752s]       |              [01;35m[K^[m[K
+[11.755s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[11.756s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+[11.756s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[11.757s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[11.757s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[11.758s]       |                  [01;35m[K^[m[K
+[11.764s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[11.765s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[11.766s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+[11.766s]    48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+[11.767s]       |                                                                             [01;35m[K^~~~[m[K
+[13.978s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[13.978s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+[13.979s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[13.979s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.980s]    59 |     _u8 data[[01;35m[K0[m[K];
+[13.980s]       |              [01;35m[K^[m[K
+[13.981s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[13.982s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+[13.982s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[13.983s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[13.983s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[13.984s]       |                  [01;35m[K^[m[K
+[13.984s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[13.985s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1208:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[13.985s]  1208 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+[13.986s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[13.986s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1216:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[14.010s]  1216 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+[14.013s]       |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[16.397s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+[16.397s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[16.398s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.399s]    59 |     _u8 data[[01;35m[K0[m[K];
+[16.399s]       |              [01;35m[K^[m[K
+[16.400s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+[16.400s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[16.401s] [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+[16.402s]   260 |     _u8  payload[[01;35m[K0[m[K];
+[16.402s]       |                  [01;35m[K^[m[K
+[39.345s] [100%] [32m[1mLinking CXX executable rplidar_scan_publisher[0m
+[40.681s] [100%] Built target rplidar_scan_publisher
+[40.752s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2 -- -j4 -l4
+[40.916s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2
+[40.979s] -- Install configuration: ""
+[40.984s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch
+[40.987s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_tcp_launch.py
+[40.990s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_launch.py
+[40.993s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_launch.py
+[40.995s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_a3_launch.py
+[40.997s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_launch.py
+[40.999s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_launch.py
+[41.001s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rviz.py
+[41.003s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_tcp_launch.py
+[41.005s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_a3_launch.py
+[41.007s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/rviz
+[41.010s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/rviz/rplidar_ros2.rviz
+[41.013s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher
+[41.022s] -- Set runtime path of "/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher" to ""
+[41.026s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/package_run_dependencies/rplidar_ros2
+[41.029s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/parent_prefix_path/rplidar_ros2
+[41.035s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.sh
+[41.038s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.dsv
+[41.041s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.sh
+[41.043s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.dsv
+[41.046s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.bash
+[41.059s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.sh
+[41.061s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.zsh
+[41.064s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.dsv
+[41.066s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.dsv
+[41.069s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/packages/rplidar_ros2
+[41.071s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.075s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.078s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config.cmake
+[41.080s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config-version.cmake
+[41.082s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.xml
+[41.105s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2

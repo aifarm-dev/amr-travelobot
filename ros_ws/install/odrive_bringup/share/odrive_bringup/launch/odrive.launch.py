@@ -105,29 +105,29 @@ def generate_launch_description():
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
+        arguments=["joint_state_broadcaster"],
     )
 
     joint0_controller_spawner = Node(
         package="controller_manager",
         executable="spawner.py",
-        arguments=[joint0_controller, "-c", "/controller_manager"],
-        condition=IfCondition(enable_joint0),
+        arguments=[joint0_controller,"-c", "/controller_manager"],
+        # condition=IfCondition(enable_joint0),
     )
 
-    joint1_controller_spawner = Node(
-        package="controller_manager",
-        executable="spawner.py",
-        arguments=[joint1_controller, "-c", "/controller_manager"],
-        condition=IfCondition(enable_joint1),
-    )
+    # joint1_controller_spawner = Node(
+    #     package="controller_manager",
+    #     executable="spawner.py",
+    #     arguments=[joint1_controller, "-c", "/controller_manager"],
+    #     condition=IfCondition(enable_joint1),
+    # )
 
     nodes = [
         control_node,
         robot_state_pub_node,
         joint_state_broadcaster_spawner,
         joint0_controller_spawner,
-        joint1_controller_spawner,
+        # joint1_controller_spawner,
     ]
 
     return LaunchDescription(declared_arguments + nodes)

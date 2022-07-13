@@ -1,0 +1,73 @@
+[0.185s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy
+[0.505s] -- The C compiler identification is GNU 9.4.0
+[0.757s] -- The CXX compiler identification is GNU 9.4.0
+[0.785s] -- Check for working C compiler: /usr/bin/cc
+[1.146s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.151s] -- Detecting C compiler ABI info
+[1.468s] -- Detecting C compiler ABI info - done
+[1.518s] -- Detecting C compile features
+[1.520s] -- Detecting C compile features - done
+[1.535s] -- Check for working CXX compiler: /usr/bin/c++
+[1.890s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.895s] -- Detecting CXX compiler ABI info
+[2.238s] -- Detecting CXX compiler ABI info - done
+[2.297s] -- Detecting CXX compile features
+[2.302s] -- Detecting CXX compile features - done
+[2.318s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[2.469s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.470s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.919s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[3.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.164s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[3.676s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.880s] -- Found FastRTPS: /opt/ros/galactic/include  
+[4.403s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.858s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[5.141s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[5.161s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[5.262s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.264s] -- Looking for pthread.h
+[5.583s] -- Looking for pthread.h - found
+[5.583s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.062s] -- Looking for pthread_create in pthreads
+[6.324s] -- Looking for pthread_create in pthreads - not found
+[6.326s] -- Looking for pthread_create in pthread
+[6.941s] -- Looking for pthread_create in pthread - found
+[6.948s] -- Found Threads: TRUE  
+[8.109s] -- Found rclcpp_components: 9.2.1 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[8.922s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[9.735s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[10.626s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[10.633s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[11.504s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[11.505s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[12.323s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[12.372s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[13.361s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[13.664s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[13.744s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[13.745s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.745s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[13.746s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[14.009s] -- Found PythonExtra: .so  
+[14.254s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.257s] -- Configured cppcheck include dirs: /home/dr/amr-travelobot/ros_ws/src/teleop_twist_joy/include
+[14.257s] -- Configured cppcheck exclude dirs and/or files: 
+[14.261s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.268s] -- Added test 'lint_cmake' to check CMake code style
+[14.274s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.279s] -- Added test 'xmllint' to check XML markup files
+[14.310s] -- Configuring done
+[14.377s] -- Generating done
+[14.389s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy
+[14.430s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy
+[14.446s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy -- -j4 -l4
+[14.747s] [35m[1mScanning dependencies of target teleop_twist_joy[0m
+[15.122s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[51.741s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[53.552s] [ 50%] Built target teleop_twist_joy
+[53.593s] [35m[1mScanning dependencies of target teleop_twist_joy_node[0m
+[53.910s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[66.977s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[68.037s] [100%] Built target teleop_twist_joy_node

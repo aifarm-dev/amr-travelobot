@@ -1,0 +1,99 @@
+[0.073s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/effort_controllers': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_controllers/effort_controllers -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/src/install/effort_controllers
+[0.318s] -- The C compiler identification is GNU 9.4.0
+[0.551s] -- The CXX compiler identification is GNU 9.4.0
+[0.575s] -- Check for working C compiler: /usr/bin/cc
+[0.861s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.865s] -- Detecting C compiler ABI info
+[1.150s] -- Detecting C compiler ABI info - done
+[1.199s] -- Detecting C compile features
+[1.202s] -- Detecting C compile features - done
+[1.213s] -- Check for working CXX compiler: /usr/bin/c++
+[1.521s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.526s] -- Detecting CXX compiler ABI info
+[1.840s] -- Detecting CXX compiler ABI info - done
+[1.891s] -- Detecting CXX compile features
+[1.894s] -- Detecting CXX compile features - done
+[1.913s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.040s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.156s] -- Found forward_command_controller: 0.8.0 (/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller/share/forward_command_controller/cmake)
+[3.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.480s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.925s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.125s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.491s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.504s] -- Looking for pthread.h
+[7.825s] -- Looking for pthread.h - found
+[7.827s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.161s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.163s] -- Looking for pthread_create in pthreads
+[8.429s] -- Looking for pthread_create in pthreads - not found
+[8.431s] -- Looking for pthread_create in pthread
+[8.755s] -- Looking for pthread_create in pthread - found
+[8.761s] -- Found Threads: TRUE  
+[11.633s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[11.647s] -- Found controller_manager: 0.10.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[11.995s] -- Found ros2_control_test_assets: 0.10.1 (/opt/ros/foxy/share/ros2_control_test_assets/cmake)
+[12.015s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[12.047s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[12.051s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.743s] -- Configuring done
+[13.064s] -- Generating done
+[13.077s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/src/build/effort_controllers
+[13.134s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_controllers/effort_controllers -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/src/install/effort_controllers
+[13.138s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/effort_controllers': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/src/build/effort_controllers -- -j4 -l4
+[13.331s] [35m[1mScanning dependencies of target gmock[0m
+[13.426s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[28.724s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[37.282s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[37.629s] [ 27%] Built target gmock
+[37.676s] [35m[1mScanning dependencies of target effort_controllers[0m
+[37.897s] [ 36%] [32mBuilding CXX object CMakeFiles/effort_controllers.dir/src/joint_group_effort_controller.cpp.o[0m
+[48.669s] [ 45%] [32m[1mLinking CXX shared library libeffort_controllers.so[0m
+[49.746s] [ 45%] Built target effort_controllers
+[49.836s] [35m[1mScanning dependencies of target gmock_main[0m
+[49.993s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[55.131s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[55.311s] [ 63%] Built target gmock_main
+[55.358s] [35m[1mScanning dependencies of target test_load_joint_group_effort_controller[0m
+[55.687s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_group_effort_controller.dir/test/test_load_joint_group_effort_controller.cpp.o[0m
+[72.866s] [ 81%] [32m[1mLinking CXX executable test_load_joint_group_effort_controller[0m
+[74.769s] [ 81%] Built target test_load_joint_group_effort_controller
+[74.815s] [35m[1mScanning dependencies of target test_joint_group_effort_controller[0m
+[75.095s] [ 90%] [32mBuilding CXX object CMakeFiles/test_joint_group_effort_controller.dir/test/test_joint_group_effort_controller.cpp.o[0m
+[98.925s] [100%] [32m[1mLinking CXX executable test_joint_group_effort_controller[0m
+[101.337s] [100%] Built target test_joint_group_effort_controller
+[101.404s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/src/build/effort_controllers -- -j4 -l4
+[101.649s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/effort_controllers': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/src/build/effort_controllers
+[101.691s] -- Install configuration: ""
+[101.692s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/effort_controllers_plugins.xml
+[101.693s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/include
+[101.694s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/include/effort_controllers
+[101.695s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/include/effort_controllers/visibility_control.h
+[101.695s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/include/effort_controllers/joint_group_effort_controller.hpp
+[101.697s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/lib/libeffort_controllers.so
+[101.699s] -- Set runtime path of "/home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/lib/libeffort_controllers.so" to ""
+[101.700s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/environment/library_path.sh
+[101.701s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/environment/library_path.dsv
+[101.702s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/ament_index/resource_index/package_run_dependencies/effort_controllers
+[101.704s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/ament_index/resource_index/parent_prefix_path/effort_controllers
+[101.705s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.sh
+[101.706s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/environment/ament_prefix_path.dsv
+[101.707s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/environment/path.sh
+[101.708s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/environment/path.dsv
+[101.709s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/local_setup.bash
+[101.710s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/local_setup.sh
+[101.711s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/local_setup.zsh
+[101.712s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/local_setup.dsv
+[101.713s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/package.dsv
+[101.714s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/ament_index/resource_index/packages/effort_controllers
+[101.716s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/effort_controllers
+[101.717s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[101.721s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[101.722s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[101.723s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake
+[101.724s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+[101.725s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/effort_controllers/share/effort_controllers/package.xml
+[101.738s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/effort_controllers' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy LD_LIBRARY_PATH=/home/dr/amr-travelobot/ros_ws/src/install/forward_command_controller/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/src/build/effort_controllers

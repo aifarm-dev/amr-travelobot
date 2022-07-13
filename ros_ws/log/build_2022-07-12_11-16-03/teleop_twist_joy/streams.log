@@ -1,0 +1,3 @@
+[0.208s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy -- -j4 -l4
+[0.566s] [ 50%] Built target teleop_twist_joy
+[0.688s] [100%] Built target teleop_twist_joy_node

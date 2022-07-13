@@ -1,0 +1,42 @@
+[3.802s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/ros2_control_demos/ros2_control_test_nodes': PYTHONPATH=/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build install --prefix /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes --record /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed
+[4.925s] running egg_info
+[4.927s] creating ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info
+[4.929s] writing ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/PKG-INFO
+[4.932s] writing dependency_links to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/dependency_links.txt
+[4.934s] writing entry points to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/entry_points.txt
+[4.935s] writing requirements to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/requires.txt
+[4.936s] writing top-level names to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/top_level.txt
+[4.957s] writing manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[5.155s] reading manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[5.160s] writing manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[5.161s] running build
+[5.162s] running build_py
+[5.162s] creating /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build
+[5.163s] creating /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib
+[5.163s] creating /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[5.164s] copying ros2_control_test_nodes/__init__.py -> /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[5.165s] copying ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[5.165s] copying ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[5.166s] running install
+[5.167s] running install_lib
+[5.172s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[5.172s] copying /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/__init__.py -> /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[5.173s] copying /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[5.174s] copying /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[5.176s] byte-compiling /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/__init__.py to __init__.cpython-38.pyc
+[5.183s] byte-compiling /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-38.pyc
+[5.186s] byte-compiling /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-38.pyc
+[5.189s] running install_data
+[5.191s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index
+[5.192s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index/resource_index
+[5.192s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[5.193s] copying resource/ros2_control_test_nodes -> /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[5.194s] copying package.xml -> /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes
+[5.194s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/configs
+[5.195s] running install_egg_info
+[5.201s] Copying ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info to /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info
+[5.206s] running install_scripts
+[5.286s] Installing publisher_forward_position_controller script to /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[5.287s] Installing publisher_joint_trajectory_controller script to /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[5.288s] writing list of installed files to '/home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/install.log'
+[5.419s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/ros2_control_demos/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build install --prefix /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes --record /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed

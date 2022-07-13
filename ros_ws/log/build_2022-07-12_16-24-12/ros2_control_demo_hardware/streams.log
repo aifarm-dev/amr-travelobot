@@ -1,0 +1,22 @@
+[0.193s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/ros2_control_demo_hardware': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/ros2_control_demo_hardware
+[0.301s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.419s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.471s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.501s] -- Found hardware_interface: 0.10.1 (/opt/ros/foxy/share/hardware_interface/cmake)
+[1.705s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.741s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.628s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.117s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.331s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.339s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.130s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[6.490s] -- Configuring done
+[6.593s] -- Generating done
+[6.603s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/ros2_control_demo_hardware
+[6.646s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/ros2_control_demo_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/ros2_control_demo_hardware
+[6.659s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/ros2_control_demo_hardware': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/ros2_control_demo_hardware -- -j4 -l4
+[6.907s] [35m[1mScanning dependencies of target ros2_control_demo_hardware[0m
+[7.135s] [ 20%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_multi_interface.cpp.o[0m
+[7.155s] [ 40%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_with_sensor.cpp.o[0m
+[7.167s] [ 60%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_position_only.cpp.o[0m
+[7.172s] [ 80%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/diffbot_system.cpp.o[0m

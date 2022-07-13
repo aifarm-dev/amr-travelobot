@@ -1,0 +1,78 @@
+[0.198s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy -- -j4 -l4
+[0.399s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.533s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.534s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.582s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.804s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.649s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.081s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.307s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.066s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[4.626s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[5.339s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.566s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[6.802s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[6.815s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.816s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[6.817s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[7.143s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.144s] -- Configured cppcheck include dirs: /home/dr/amr-travelobot/ros_ws/src/teleop_twist_joy/include
+[7.145s] -- Configured cppcheck exclude dirs and/or files: 
+[7.147s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.154s] -- Added test 'lint_cmake' to check CMake code style
+[7.157s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.159s] -- Added test 'xmllint' to check XML markup files
+[7.206s] -- Configuring done
+[7.350s] -- Generating done
+[7.383s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy
+[7.722s] [35m[1mScanning dependencies of target teleop_twist_joy[0m
+[8.168s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[48.182s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[49.546s] [ 50%] Built target teleop_twist_joy
+[49.598s] [35m[1mScanning dependencies of target teleop_twist_joy_node[0m
+[49.877s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[58.676s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[59.495s] [100%] Built target teleop_twist_joy_node
+[59.539s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy -- -j4 -l4
+[59.649s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy
+[59.684s] -- Install configuration: ""
+[59.685s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[59.704s] -- Set runtime path of "/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so" to ""
+[59.704s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[59.706s] -- Set runtime path of "/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node" to ""
+[59.707s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/include
+[59.708s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/include/teleop_twist_joy
+[59.708s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[59.709s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[59.709s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch
+[59.710s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop.launch.py
+[59.711s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/config
+[59.712s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[59.712s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[59.713s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[59.714s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[59.715s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox_usb.config.yaml
+[59.716s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[59.717s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[59.719s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[59.722s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[59.724s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[59.725s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[59.726s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[59.727s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[59.728s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[59.729s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[59.730s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[59.731s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[59.732s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[59.733s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[59.735s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[59.736s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[59.738s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.740s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[59.741s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[59.742s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[59.743s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[59.762s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy

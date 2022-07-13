@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2
+[ 14%] [32m[1mLinking CXX executable rplidar_scan_publisher[0m
+[100%] Built target rplidar_scan_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_a3_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_tcp_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rviz.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_a3_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_tcp_launch.py
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/rviz/rplidar_ros2.rviz
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/package_run_dependencies/rplidar_ros2
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/parent_prefix_path/rplidar_ros2
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.sh
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.dsv
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.bash
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.sh
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.zsh
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.dsv
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.dsv
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/packages/rplidar_ros2
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config.cmake
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config-version.cmake
+-- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.xml

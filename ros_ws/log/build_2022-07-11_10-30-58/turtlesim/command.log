@@ -1,6 +1,0 @@
-Invoking command in '/home/dr/amr-travelobot/ros_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/turtlesim
-Invoked command in '/home/dr/amr-travelobot/ros_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/turtlesim
-Invoking command in '/home/dr/amr-travelobot/ros_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/turtlesim -- -j4 -l4
-Invoked command in '/home/dr/amr-travelobot/ros_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/turtlesim -- -j4 -l4
-Invoking command in '/home/dr/amr-travelobot/ros_ws/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/turtlesim
-Invoked command in '/home/dr/amr-travelobot/ros_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/turtlesim

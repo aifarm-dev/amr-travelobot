@@ -1,0 +1,37 @@
+[0.231s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+[0.745s] [ 50%] Built target odrive_usb
+[1.007s] [100%] Built target odrive_hardware_interface
+[1.253s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+[1.599s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface
+[1.704s] -- Install configuration: ""
+[1.706s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/odrive_hardware_interface.xml
+[1.707s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/include
+[1.721s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/include/odrive_hardware_interface
+[1.724s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_usb.hpp
+[1.725s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/visibility_control.hpp
+[1.726s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_endpoints.hpp
+[1.726s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp
+[1.727s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.sh
+[1.728s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/library_path.dsv
+[1.728s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/lib/libodrive_usb.so
+[1.729s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/lib/libodrive_hardware_interface.so
+[1.730s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/ament_index/resource_index/package_run_dependencies/odrive_hardware_interface
+[1.730s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/ament_index/resource_index/parent_prefix_path/odrive_hardware_interface
+[1.731s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.sh
+[1.732s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/ament_prefix_path.dsv
+[1.732s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.sh
+[1.733s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/environment/path.dsv
+[1.734s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.bash
+[1.734s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.sh
+[1.735s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.zsh
+[1.736s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/local_setup.dsv
+[1.737s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv
+[1.737s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/ament_index/resource_index/packages/odrive_hardware_interface
+[1.738s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/odrive_hardware_interface
+[1.738s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.739s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.739s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.740s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig.cmake
+[1.740s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/cmake/odrive_hardware_interfaceConfig-version.cmake
+[1.741s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.xml
+[1.794s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface

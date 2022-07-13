@@ -1,0 +1,523 @@
+[0.916s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.916s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fad48bd60>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fad48bd60>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fad2bb490>)
+[1.060s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.061s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.062s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dr/amr-travelobot/ros_ws'
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.062s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.063s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.064s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.122s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.124s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.125s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[1.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[1.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[1.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.155s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ignore'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ignore_ament_install'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['colcon_pkg']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'colcon_pkg'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['colcon_meta']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'colcon_meta'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['ros']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'ros'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['cmake', 'python']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'cmake'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'python'
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extensions ['python_setup_py']
+[1.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control) by extension 'python_setup_py'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'ignore'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'ignore_ament_install'
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['colcon_pkg']
+[1.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'colcon_pkg'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['colcon_meta']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'colcon_meta'
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extensions ['ros']
+[1.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_bringup) by extension 'ros'
+[1.162s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_bringup' with type 'ros.ament_cmake' and name 'odrive_bringup'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'ignore'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'ignore_ament_install'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['colcon_pkg']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'colcon_pkg'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['colcon_meta']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'colcon_meta'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extensions ['ros']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_description) by extension 'ros'
+[1.166s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_description' with type 'ros.ament_cmake' and name 'odrive_description'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ignore_ament_install'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['colcon_pkg']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'colcon_pkg'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['colcon_meta']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'colcon_meta'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extensions ['ros']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_hardware_interface) by extension 'ros'
+[1.171s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_hardware_interface' with type 'ros.ament_cmake' and name 'odrive_hardware_interface'
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[1.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ignore'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ignore_ament_install'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['colcon_pkg']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'colcon_pkg'
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['colcon_meta']
+[1.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'colcon_meta'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extensions ['ros']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/odrive_ros2_control/odrive_ros2_control) by extension 'ros'
+[1.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/odrive_ros2_control/odrive_ros2_control' with type 'ros.ament_cmake' and name 'odrive_ros2_control'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[1.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'ignore'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'ignore_ament_install'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['colcon_pkg']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'colcon_pkg'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['colcon_meta']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'colcon_meta'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extensions ['ros']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_bringup) by extension 'ros'
+[1.198s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_bringup' with type 'ros.ament_cmake' and name 'rosbot_bringup'
+[1.199s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'ignore'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'ignore_ament_install'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['colcon_pkg']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'colcon_pkg'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['colcon_meta']
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'colcon_meta'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extensions ['ros']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_description) by extension 'ros'
+[1.203s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_description' with type 'ros.ament_cmake' and name 'rosbot_description'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[1.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros2'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_pkg']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_pkg'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['colcon_meta']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'colcon_meta'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extensions ['ros']
+[1.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_joy) by extension 'ros'
+[1.216s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_joy' with type 'ros.ament_cmake' and name 'teleop_twist_joy'
+[1.216s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.379s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.387s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/turtlesim' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.387s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.388s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.388s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.388s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.389s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/joint_state_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.389s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/joint_state_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.389s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/imu_sensor_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.390s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/effort_controllers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.390s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/forward_command_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.390s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/force_torque_sensor_broadcaster' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.390s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/dr/amr-travelobot/ros_ws/install/diff_drive_controller' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.391s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/turtlesim' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.391s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.391s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.391s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.392s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.392s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/joint_state_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.392s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/joint_state_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.392s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/imu_sensor_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.392s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/effort_controllers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.393s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/forward_command_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.393s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/force_torque_sensor_broadcaster' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.393s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/dr/amr-travelobot/ros_ws/install/diff_drive_controller' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.403s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/dr/amr-travelobot/ros_ws/install
+[1.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 299 installed packages in /opt/ros/galactic
+[1.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.985s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/galactic
+	'teleop_twist_joy' is in: /opt/ros/galactic
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding teleop_twist_joy turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[1.991s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.992s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/bno055', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/bno055', 'symlink_install': False, 'test_result_base': None}
+[1.998s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_args' from command line to 'None'
+[1.998s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_target' from command line to 'None'
+[1.998s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.998s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.999s] Level 5:colcon.colcon_core.verb:set package 'odrive_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.999s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/odrive_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/odrive_description', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_description', 'symlink_install': False, 'test_result_base': None}
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_args' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'odrive_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.006s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target' from command line to 'None'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.014s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.015s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/rosbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/rosbot_description', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/rosbot_description', 'symlink_install': False, 'test_result_base': None}
+[2.024s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_args' from command line to 'None'
+[2.024s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_target' from command line to 'None'
+[2.024s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.025s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.026s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_args' from command line to 'None'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target' from command line to 'None'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.034s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[2.034s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_clean_first' from command line to 'False'
+[2.034s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'cmake_force_configure' from command line to 'False'
+[2.034s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'ament_cmake_args' from command line to 'None'
+[2.034s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[2.034s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.035s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/teleop_twist_joy', 'symlink_install': False, 'test_result_base': None}
+[2.041s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[2.041s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[2.042s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.042s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.042s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[2.042s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[2.042s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.043s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.043s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/turtlesim', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[2.048s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_target' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.049s] Level 5:colcon.colcon_core.verb:set package 'odrive_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.050s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/odrive_bringup', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_args' from command line to 'None'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_target' from command line to 'None'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.055s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.056s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.056s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/rosbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/rosbot_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.061s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_args' from command line to 'None'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_target' from command line to 'None'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[2.062s] Level 5:colcon.colcon_core.verb:set package 'odrive_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.063s] DEBUG:colcon.colcon_core.verb:Building package 'odrive_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dr/amr-travelobot/ros_ws/build/odrive_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control', 'merge_install': False, 'path': '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[2.066s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.086s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.087s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_description' with build type 'ament_cmake'
+[2.088s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_description'
+[2.120s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.121s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.121s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.155s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface' with build type 'ament_cmake'
+[2.156s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface'
+[2.164s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dr/amr-travelobot/ros_ws/src/rosbot_description' with build type 'ament_cmake'
+[2.198s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dr/amr-travelobot/ros_ws/src/rosbot_description'
+[2.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.208s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.241s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dr/amr-travelobot/ros_ws/src/rplidar_ros' with build type 'ament_cmake'
+[2.242s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dr/amr-travelobot/ros_ws/src/rplidar_ros'
+[2.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_description -- -j4 -l4
+[2.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+[2.376s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rosbot_description -- -j4 -l4
+[2.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2 -- -j4 -l4
+[2.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_description -- -j4 -l4
+[2.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rosbot_description -- -j4 -l4
+[2.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_description
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rosbot_description
+[2.728s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_description)
+[2.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_description
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description' for CMake module files
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description' for CMake config files
+[2.785s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_description', 'cmake_prefix_path')
+[2.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.ps1'
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.dsv'
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.sh'
+[2.806s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/bin'
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/lib/pkgconfig/odrive_description.pc'
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/lib/python3.8/site-packages'
+[2.808s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/bin'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.ps1'
+[2.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.sh'
+[2.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.bash'
+[2.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.zsh'
+[2.840s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/colcon-core/packages/odrive_description)
+[2.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_description)
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description' for CMake module files
+[2.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rosbot_description
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description' for CMake config files
+[2.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_description', 'cmake_prefix_path')
+[2.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.ps1'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.dsv'
+[2.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.sh'
+[2.890s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/bin'
+[2.891s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/lib/pkgconfig/rosbot_description.pc'
+[2.892s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/lib/python3.8/site-packages'
+[2.893s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/bin'
+[2.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.ps1'
+[2.904s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.dsv'
+[2.906s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.sh'
+[2.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.bash'
+[2.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.zsh'
+[2.912s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/colcon-core/packages/rosbot_description)
+[2.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2 -- -j4 -l4
+[2.953s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_description)
+[2.966s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description' for CMake module files
+[2.970s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description' for CMake config files
+[2.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('odrive_description', 'cmake_prefix_path')
+[2.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.ps1'
+[2.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.dsv'
+[2.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/hook/cmake_prefix_path.sh'
+[2.989s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/bin'
+[2.990s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/lib/pkgconfig/odrive_description.pc'
+[2.991s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/lib/python3.8/site-packages'
+[2.992s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_description/bin'
+[3.001s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.ps1'
+[3.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.dsv'
+[3.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.sh'
+[3.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.bash'
+[3.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.zsh'
+[3.014s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dr/amr-travelobot/ros_ws/install/odrive_description/share/colcon-core/packages/odrive_description)
+[3.018s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dr/amr-travelobot/ros_ws/src/teleop_twist_joy' with build type 'ament_cmake'
+[3.019s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dr/amr-travelobot/ros_ws/src/teleop_twist_joy'
+[3.028s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.028s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_description)
+[3.099s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description' for CMake module files
+[3.103s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description' for CMake config files
+[3.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_description', 'cmake_prefix_path')
+[3.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.ps1'
+[3.117s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.dsv'
+[3.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.sh'
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/bin'
+[3.122s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/lib/pkgconfig/rosbot_description.pc'
+[3.123s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/lib/python3.8/site-packages'
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/bin'
+[3.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.ps1'
+[3.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.dsv'
+[3.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.sh'
+[3.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.bash'
+[3.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.zsh'
+[3.147s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/colcon-core/packages/rosbot_description)
+[3.153s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_bringup' with build type 'ament_cmake'
+[3.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_bringup'
+[3.163s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.164s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2
+[3.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy -- -j4 -l4
+[3.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/joint_state_controller:/home/dr/amr-travelobot/ros_ws/install/joint_state_broadcaster:/home/dr/amr-travelobot/ros_ws/install/imu_sensor_broadcaster:/home/dr/amr-travelobot/ros_ws/install/effort_controllers:/home/dr/amr-travelobot/ros_ws/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/force_torque_sensor_broadcaster:/home/dr/amr-travelobot/ros_ws/install/diff_drive_controller:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_bringup -- -j4 -l4
+[3.332s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros2)
+[3.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2
+[3.348s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2' for CMake module files
+[3.351s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2' for CMake config files
+[3.353s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros2', 'cmake_prefix_path')
+[3.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.ps1'
+[3.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.dsv'
+[3.366s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.sh'
+[3.368s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib'
+[3.369s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/bin'
+[3.370s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/pkgconfig/rplidar_ros2.pc'
+[3.371s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/python3.8/site-packages'
+[3.372s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/bin'
+[3.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.ps1'
+[3.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.dsv'
+[3.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.sh'
+[3.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.bash'
+[3.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.zsh'
+[3.390s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/colcon-core/packages/rplidar_ros2)
+[3.489s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup' returned '0': CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/joint_state_controller:/home/dr/amr-travelobot/ros_ws/install/joint_state_broadcaster:/home/dr/amr-travelobot/ros_ws/install/imu_sensor_broadcaster:/home/dr/amr-travelobot/ros_ws/install/effort_controllers:/home/dr/amr-travelobot/ros_ws/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/force_torque_sensor_broadcaster:/home/dr/amr-travelobot/ros_ws/install/diff_drive_controller:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_bringup -- -j4 -l4
+[3.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+[3.578s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros2)
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2' for CMake module files
+[3.595s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2' for CMake config files
+[3.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros2', 'cmake_prefix_path')
+[3.604s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.ps1'
+[3.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.dsv'
+[3.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/hook/cmake_prefix_path.sh'
+[3.611s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib'
+[3.611s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/bin'
+[3.612s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/pkgconfig/rplidar_ros2.pc'
+[3.613s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/python3.8/site-packages'
+[3.613s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/bin'
+[3.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.ps1'
+[3.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.dsv'
+[3.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.sh'
+[3.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.bash'
+[3.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.zsh'
+[3.634s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/colcon-core/packages/rplidar_ros2)
+[3.638s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dr/amr-travelobot/ros_ws/src/bno055' with build type 'ament_python'
+[3.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'ament_prefix_path')
+[3.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/bno055/share/bno055/hook/ament_prefix_path.ps1'
+[3.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dr/amr-travelobot/ros_ws/install/bno055/share/bno055/hook/ament_prefix_path.dsv'
+[3.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dr/amr-travelobot/ros_ws/install/bno055/share/bno055/hook/ament_prefix_path.sh'
+[3.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.711s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(odrive_hardware_interface)
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface' for CMake module files
+[3.731s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface' for CMake config files
+[3.732s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/bin'
+[3.733s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/lib/pkgconfig/odrive_hardware_interface.pc'
+[3.734s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/lib/python3.8/site-packages'
+[3.736s] Level 1:colcon.colcon_core.environment:checking '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/bin'
+[3.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.ps1'
+[3.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.dsv'
+[3.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.sh'
+[3.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.bash'
+[3.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/odrive_hardware_interface/package.zsh'
+[3.756s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface/share/colcon-core/packages/odrive_hardware_interface)
+[3.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/home/dr/amr-travelobot/ros_ws/install/turtlesim:/home/dr/amr-travelobot/ros_ws/install/rosbot_bringup:/home/dr/amr-travelobot/ros_ws/install/teleop_twist_joy:/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2:/home/dr/amr-travelobot/ros_ws/install/rosbot_description:/home/dr/amr-travelobot/ros_ws/install/odrive_ros2_control:/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface:/home/dr/amr-travelobot/ros_ws/install/odrive_bringup:/home/dr/amr-travelobot/ros_ws/install/joint_state_controller:/home/dr/amr-travelobot/ros_ws/install/joint_state_broadcaster:/home/dr/amr-travelobot/ros_ws/install/imu_sensor_broadcaster:/home/dr/amr-travelobot/ros_ws/install/effort_controllers:/home/dr/amr-travelobot/ros_ws/install/forward_command_controller:/home/dr/amr-travelobot/ros_ws/install/force_torque_sensor_broadcaster:/home/dr/amr-travelobot/ros_ws/install/diff_drive_controller:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_bringup
+[3.796s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.797s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.798s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.847s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.847s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.863s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dr/amr-travelobot/ros_ws/install/local_setup.ps1'
+[3.879s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dr/amr-travelobot/ros_ws/install/_local_setup_util_ps1.py'
+[3.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dr/amr-travelobot/ros_ws/install/setup.ps1'
+[3.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dr/amr-travelobot/ros_ws/install/local_setup.sh'
+[3.899s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dr/amr-travelobot/ros_ws/install/_local_setup_util_sh.py'
+[3.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dr/amr-travelobot/ros_ws/install/setup.sh'
+[3.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dr/amr-travelobot/ros_ws/install/local_setup.bash'
+[3.912s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dr/amr-travelobot/ros_ws/install/setup.bash'
+[3.921s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dr/amr-travelobot/ros_ws/install/local_setup.zsh'
+[3.924s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dr/amr-travelobot/ros_ws/install/setup.zsh'

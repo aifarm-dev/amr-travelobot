@@ -1,0 +1,174 @@
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/arch/linux/net_socket.cpp:10[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:35[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/hal/thread.cpp:43[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:[m[K In static member function ‘[01m[Kstatic rp::hal::Thread rp::hal::Thread::create(thread_proc_t, void*)[m[K’:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/src/arch/linux/thread.hpp:48:77:[m[K [01;35m[Kwarning: [m[Kcast between incompatible function types from ‘[01m[Kthread_proc_t[m[K’ {aka ‘[01m[Klong unsigned int (*)(void*)[m[K’} to ‘[01m[Kvoid* (*)(void*)[m[K’ [[01;35m[K-Wcast-function-type[m[K]
+   48 |     pthread_create((pthread_t *)&newborn._handle, NULL, (void * (*)(void *))[01;35m[Kproc[m[K, data);
+      |                                                                             [01;35m[K^~~~[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/sdkcommon.h:48[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:35[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:[m[K In member function ‘[01m[Kvirtual void rp::standalone::rplidar::RPlidarDriverImplCommon::_ultraCapsuleToNormal(const rplidar_response_ultra_capsule_measurement_nodes_t&, rplidar_response_measurement_node_hq_t*, size_t&)[m[K’:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1208:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1208 |             if (([01;35m[Kdist_predict1 == 0xFFFFFE00[m[K) || (dist_predict1 == 0x1FF)) {
+      |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/sdk/src/rplidar_driver.cpp:1216:32:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kunsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+ 1216 |             if (([01;35m[Kdist_predict2 == 0xFFFFFE00[m[K) || (dist_predict2 == 0x1FF)) {
+      |                  [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:39[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_protocol.h:59:14:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K-Wpedantic[m[K]
+   59 |     _u8 data[[01;35m[K0[m[K];
+      |              [01;35m[K^[m[K
+In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar.h:40[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:38[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/./sdk/include/rplidar_cmd.h:260:18:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K-Wpedantic[m[K]
+  260 |     _u8  payload[[01;35m[K0[m[K];
+      |                  [01;35m[K^[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:[m[K In member function ‘[01m[Kvoid RPLidarScanPublisher::init_param()[m[K’:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:67:47:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   67 |         this->declare_parameter("channel_type"[01;35m[K)[m[K;
+      |                                               [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:68:41:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   68 |         this->declare_parameter("tcp_ip"[01;35m[K)[m[K;
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:69:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   69 |         this->declare_parameter("tcp_port"[01;35m[K)[m[K;
+      |                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:70:46:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   70 |         this->declare_parameter("serial_port"[01;35m[K)[m[K;
+      |                                              [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:71:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   71 |         this->declare_parameter("serial_baudrate"[01;35m[K)[m[K;
+      |                                                  [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:72:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   72 |         this->declare_parameter("frame_id"[01;35m[K)[m[K;
+      |                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:73:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   73 |         this->declare_parameter("inverted"[01;35m[K)[m[K;
+      |                                           [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:74:51:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   74 |         this->declare_parameter("angle_compensate"[01;35m[K)[m[K;
+      |                                                   [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:75:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&)[m[K’ is deprecated: declare_parameter() with only a name is deprecated and will be deleted in the future.\nIf you want to declare a parameter that won't change type without a default value use:\n`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\nIf you want to declare a parameter that can dynamically change type use:\n```\nrcl_interfaces::msg::ParameterDescriptor descriptor;\ndescriptor.dynamic_typing = true;\nnode->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n``` [[01;35m[K-Wdeprecated-declarations[m[K]
+   75 |         this->declare_parameter("scan_mode"[01;35m[K)[m[K;
+      |                                            [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/opt/ros/galactic/include/rclcpp/node.hpp:422:3:[m[K [01;36m[Knote: [m[Kdeclared here
+  422 |   [01;36m[Kdeclare_parameter[m[K(const std::string & name);
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:35[m[K:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:[m[K In member function ‘[01m[Kint RPLidarScanPublisher::work_loop()[m[K’:
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:336:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+  336 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"current scan mode: %s, max_distance: %.1f m, Point number: %.1fK , angle_compensate: %d"[m[K,current_scan_mode.scan_mode,
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  337 |                     current_scan_mode.max_distance, (1000/current_scan_mode.us_per_sample), [32m[Kangle_compensate_multiple[m[K);
+      |                                                                                             [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                             [32m[K|[m[K
+      |                                                                                             [32m[Ksize_t {aka long unsigned int}[m[K
+[01m[K/home/dr/amr-travelobot/ros_ws/src/rplidar_ros/src/rplidar_scan_publisher.cpp:336:131:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  336 |             RCLCPP_INFO(this->get_logger(),"current scan mode: %s, max_distance: %.1f m, Point number: %.1fK , angle_compensate: [01;36m[K%d[m[K",current_scan_mode.scan_mode,
+      |                                                                                                                                  [01;36m[K~^[m[K
+      |                                                                                                                                   [01;36m[K|[m[K
+      |                                                                                                                                   [01;36m[Kint[m[K
+      |                                                                                                                                  [32m[K%ld[m[K

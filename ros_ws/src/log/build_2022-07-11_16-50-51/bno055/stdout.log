@@ -1,0 +1,76 @@
+running egg_info
+creating ../build/bno055/bno055.egg-info
+writing ../build/bno055/bno055.egg-info/PKG-INFO
+writing dependency_links to ../build/bno055/bno055.egg-info/dependency_links.txt
+writing entry points to ../build/bno055/bno055.egg-info/entry_points.txt
+writing requirements to ../build/bno055/bno055.egg-info/requires.txt
+writing top-level names to ../build/bno055/bno055.egg-info/top_level.txt
+writing manifest file '../build/bno055/bno055.egg-info/SOURCES.txt'
+reading manifest file '../build/bno055/bno055.egg-info/SOURCES.txt'
+writing manifest file '../build/bno055/bno055.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dr/amr-travelobot/ros_ws/src/build/bno055/build
+creating /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib
+creating /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055
+copying bno055/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055
+copying bno055/bno055.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055
+copying bno055/registers.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055
+creating /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/error_handling
+copying bno055/error_handling/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/error_handling
+copying bno055/error_handling/exceptions.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/error_handling
+creating /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/params
+copying bno055/params/NodeParameters.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/params
+copying bno055/params/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/params
+creating /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors
+copying bno055/connectors/uart.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors
+copying bno055/connectors/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors
+copying bno055/connectors/i2c.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors
+copying bno055/connectors/Connector.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors
+creating /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/sensor
+copying bno055/sensor/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/sensor
+copying bno055/sensor/SensorService.py -> /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/sensor
+running install
+running install_lib
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/error_handling
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/error_handling
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/error_handling
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/params
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/params
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/params/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/params
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors/uart.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/bno055.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/sensor
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/sensor
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/sensor
+copying /home/dr/amr-travelobot/ros_ws/src/build/bno055/build/lib/bno055/registers.py -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/error_handling/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/params/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors/uart.py to uart.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors/i2c.py to i2c.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/connectors/Connector.py to Connector.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/bno055.py to bno055.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/sensor/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-38.pyc
+byte-compiling /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055/registers.py to registers.cpython-38.pyc
+running install_data
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/share/ament_index
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/share/ament_index/resource_index
+creating /home/dr/amr-travelobot/ros_ws/src/install/bno055/share/ament_index/resource_index/packages
+copying resource/bno055 -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/share/ament_index/resource_index/packages
+copying package.xml -> /home/dr/amr-travelobot/ros_ws/src/install/bno055/share/bno055
+running install_egg_info
+Copying ../build/bno055/bno055.egg-info to /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/python3.8/site-packages/bno055-0.1.0-py3.8.egg-info
+running install_scripts
+Installing bno055 script to /home/dr/amr-travelobot/ros_ws/src/install/bno055/lib/bno055
+writing list of installed files to '/home/dr/amr-travelobot/ros_ws/src/build/bno055/install.log'

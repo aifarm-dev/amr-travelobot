@@ -1,0 +1,83 @@
+[0.204s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+[0.463s] [ 50%] Built target odrive_usb
+[0.522s] [35m[1mScanning dependencies of target odrive_hardware_interface[0m
+[0.666s] [ 75%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[11.863s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[11.864s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:73:[m[K [01;31m[Kerror: [m[Kexpected template-name before ‘[01m[K<[m[K’ token
+[11.865s]    45 | class ODriveHardwareInterface : public hardware_interface::BaseInterface[01;31m[K<[m[Khardware_interface::SystemInterface>
+[11.865s]       |                                                                         [01;31m[K^[m[K
+[11.866s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K<[m[K’ token
+[11.867s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:73:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K<[m[K’ token
+[11.967s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:20:92:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.968s]    20 | return_type ODriveHardwareInterface::configure(const hardware_interface::HardwareInfo& info[01;31m[K)[m[K
+[11.968s]       |                                                                                            [01;31m[K^[m[K
+[11.969s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[11.969s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.970s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[11.970s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.971s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:81:98:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.971s]    81 | std::vector<hardware_interface::StateInterface> ODriveHardwareInterface::export_state_interfaces([01;31m[K)[m[K
+[11.972s]       |                                                                                                  [01;31m[K^[m[K
+[11.972s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[11.972s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.973s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[11.973s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.974s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:115:102:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.975s]   115 | std::vector<hardware_interface::CommandInterface> ODriveHardwareInterface::export_command_interfaces([01;31m[K)[m[K
+[11.976s]       |                                                                                                      [01;31m[K^[m[K
+[11.982s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[11.983s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.983s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[11.984s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.989s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:132:113:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.989s]   132 |                                                                  const std::vector<std::string>& stop_interfaces[01;31m[K)[m[K
+[11.990s]       |                                                                                                                 [01;31m[K^[m[K
+[11.990s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[11.991s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.991s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[11.991s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.992s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:238:44:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.992s]   238 | return_type ODriveHardwareInterface::start([01;31m[K)[m[K
+[11.992s]       |                                            [01;31m[K^[m[K
+[11.993s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[11.993s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.994s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[11.997s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.998s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:253:43:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[11.998s]   253 | return_type ODriveHardwareInterface::stop([01;31m[K)[m[K
+[11.999s]       |                                           [01;31m[K^[m[K
+[11.999s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[12.000s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[12.000s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[12.000s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.001s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:265:43:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[12.001s]   265 | return_type ODriveHardwareInterface::read([01;31m[K)[m[K
+[12.001s]       |                                           [01;31m[K^[m[K
+[12.002s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[12.007s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[12.007s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[12.011s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.012s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:317:44:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[12.012s]   317 | return_type ODriveHardwareInterface::write([01;31m[K)[m[K
+[12.013s]       |                                            [01;31m[K^[m[K
+[12.013s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[12.013s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[12.022s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[12.023s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.898s] In file included from [01m[K/opt/ros/galactic/include/class_loader/class_loader_core.hpp:57[m[K,
+[14.898s]                  from [01m[K/opt/ros/galactic/include/class_loader/class_loader.hpp:55[m[K,
+[14.899s]                  from [01m[K/opt/ros/galactic/include/pluginlib/class_list_macros.hpp:40[m[K,
+[14.899s]                  from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:16[m[K:
+[14.900s] /opt/ros/galactic/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = odrive_hardware_interface::ODriveHardwareInterface; B = hardware_interface::SystemInterface][m[K’:
+[14.900s] [01m[K/opt/ros/galactic/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[14.901s] [01m[K/opt/ros/galactic/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[14.901s]   218 |     return [01;31m[Knew C[m[K;
+[14.902s]       |            [01;31m[K^~~~~[m[K
+[14.903s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[14.904s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:45:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass odrive_hardware_interface::ODriveHardwareInterface[m[K’
+[14.904s]    45 | class [01;36m[KODriveHardwareInterface[m[K : public hardware_interface::BaseInterface<hardware_interface::SystemInterface>
+[14.905s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.279s] make[2]: *** [CMakeFiles/odrive_hardware_interface.dir/build.make:63: CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o] Error 1
+[15.286s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/odrive_hardware_interface.dir/all] Error 2
+[15.287s] make: *** [Makefile:141: all] Error 2
+[15.303s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4

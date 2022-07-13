@@ -1,0 +1,29 @@
+[0.189s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_bringup -- -j4 -l4
+[0.344s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[0.445s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.895s] -- Configuring done
+[1.921s] -- Generating done
+[1.933s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/odrive_bringup
+[2.114s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_bringup -- -j4 -l4
+[2.223s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_bringup
+[2.266s] -- Install configuration: ""
+[2.267s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/config
+[2.267s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/config/odrive_controllers.yaml
+[2.269s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/launch
+[2.269s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/launch/odrive.launch.py
+[2.271s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/ament_index/resource_index/package_run_dependencies/odrive_bringup
+[2.272s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/ament_index/resource_index/parent_prefix_path/odrive_bringup
+[2.272s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/ament_prefix_path.sh
+[2.273s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/ament_prefix_path.dsv
+[2.274s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/path.sh
+[2.275s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/environment/path.dsv
+[2.275s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.bash
+[2.279s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.sh
+[2.279s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.zsh
+[2.280s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/local_setup.dsv
+[2.282s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/package.dsv
+[2.284s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/ament_index/resource_index/packages/odrive_bringup
+[2.285s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/cmake/odrive_bringupConfig.cmake
+[2.286s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/cmake/odrive_bringupConfig-version.cmake
+[2.287s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_bringup/share/odrive_bringup/package.xml
+[2.306s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup' returned '0': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_bringup

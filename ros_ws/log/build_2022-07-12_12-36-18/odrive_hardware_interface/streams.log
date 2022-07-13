@@ -1,0 +1,12 @@
+[0.154s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+[0.463s] [ 50%] Built target odrive_usb
+[0.633s] [ 75%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[1.179s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[1.181s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[1.181s]    20 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[1.182s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.183s] compilation terminated.
+[1.191s] make[2]: *** [CMakeFiles/odrive_hardware_interface.dir/build.make:63: CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o] Error 1
+[1.197s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/odrive_hardware_interface.dir/all] Error 2
+[1.197s] make: *** [Makefile:141: all] Error 2
+[1.208s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4

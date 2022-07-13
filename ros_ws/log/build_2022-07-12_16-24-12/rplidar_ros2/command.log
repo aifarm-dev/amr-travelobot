@@ -1,0 +1,3 @@
+Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2
+Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2
+Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2 -- -j4 -l4

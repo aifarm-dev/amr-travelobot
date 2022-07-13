@@ -1,0 +1,25 @@
+[3.566s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes --editable --build-directory /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build --no-deps install_data --install-dir /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes
+[4.996s] running develop
+[6.462s] running egg_info
+[6.464s] writing ros2_control_test_nodes.egg-info/PKG-INFO
+[6.480s] writing dependency_links to ros2_control_test_nodes.egg-info/dependency_links.txt
+[6.481s] writing entry points to ros2_control_test_nodes.egg-info/entry_points.txt
+[6.482s] writing requirements to ros2_control_test_nodes.egg-info/requires.txt
+[6.483s] writing top-level names to ros2_control_test_nodes.egg-info/top_level.txt
+[6.857s] reading manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[6.864s] writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[7.305s] running build_ext
+[7.316s] Creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/site.py
+[7.331s] Creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2-control-test-nodes.egg-link (link to .)
+[7.335s] Installing publisher_forward_position_controller script to /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[7.338s] Installing publisher_joint_trajectory_controller script to /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[7.338s] 
+[7.339s] Installed /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes
+[7.339s] running install_data
+[7.347s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index
+[7.348s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index/resource_index
+[7.349s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[7.349s] copying resource/ros2_control_test_nodes -> /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ament_index/resource_index/packages
+[7.350s] copying package.xml -> /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes
+[7.351s] creating /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/configs
+[7.610s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes --editable --build-directory /home/dr/amr-travelobot/ros_ws/build/ros2_control_test_nodes/build --no-deps install_data --install-dir /home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes

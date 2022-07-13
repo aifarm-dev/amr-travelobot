@@ -1,0 +1,55 @@
+[0.137s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/turtlesim
+[0.878s] -- The C compiler identification is GNU 9.4.0
+[1.242s] -- The CXX compiler identification is GNU 9.4.0
+[1.268s] -- Check for working C compiler: /usr/bin/cc
+[1.684s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.693s] -- Detecting C compiler ABI info
+[2.466s] -- Detecting C compiler ABI info - done
+[2.558s] -- Detecting C compile features
+[2.560s] -- Detecting C compile features - done
+[2.576s] -- Check for working CXX compiler: /usr/bin/c++
+[3.147s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.153s] -- Detecting CXX compiler ABI info
+[3.518s] -- Detecting CXX compiler ABI info - done
+[3.572s] -- Detecting CXX compile features
+[3.574s] -- Detecting CXX compile features - done
+[3.590s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.715s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.716s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.162s] -- Found ament_index_cpp: 1.2.0 (/opt/ros/galactic/share/ament_index_cpp/cmake)
+[4.184s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[4.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.435s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[4.911s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.109s] -- Found FastRTPS: /opt/ros/galactic/include  
+[5.603s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.169s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[6.439s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[6.460s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[6.570s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.574s] -- Looking for pthread.h
+[6.885s] -- Looking for pthread.h - found
+[6.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.196s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.197s] -- Looking for pthread_create in pthreads
+[7.452s] -- Looking for pthread_create in pthreads - not found
+[7.454s] -- Looking for pthread_create in pthread
+[7.764s] -- Looking for pthread_create in pthread - found
+[7.768s] -- Found Threads: TRUE  
+[8.479s] -- Found rclcpp_action: 9.2.1 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[8.905s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[8.992s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[9.185s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[11.252s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[13.009s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.175s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[13.332s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[13.465s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[13.466s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.466s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[13.467s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[13.578s] -- Found PythonExtra: .so  
+[14.023s] -- Configuring done
+[14.469s] -- Generating done
+[14.488s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/turtlesim

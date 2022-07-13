@@ -1,0 +1,52 @@
+[0.159s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2
+[0.352s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.627s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.257s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.317s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.716s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.170s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.463s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.876s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.026s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[7.979s] -- Configuring done
+[8.087s] -- Generating done
+[8.094s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2
+[8.163s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/rplidar_ros2
+[8.168s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2 -- -j4 -l4
+[8.678s] [ 14%] [32m[1mLinking CXX executable rplidar_scan_publisher[0m
+[10.570s] [100%] Built target rplidar_scan_publisher
+[10.949s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2 -- -j4 -l4
+[11.588s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2
+[11.683s] -- Install configuration: ""
+[11.686s] -- Execute custom install script
+[11.691s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_a3_launch.py
+[11.781s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_launch.py
+[11.877s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_launch.py
+[12.002s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rplidar_s1_tcp_launch.py
+[12.073s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/rviz.py
+[12.143s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_a3_launch.py
+[12.193s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_launch.py
+[12.274s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_launch.py
+[12.355s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/launch/view_rplidar_s1_tcp_launch.py
+[12.440s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/rviz/rplidar_ros2.rviz
+[12.519s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/lib/rplidar_ros2/rplidar_scan_publisher
+[12.596s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/package_run_dependencies/rplidar_ros2
+[12.683s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/parent_prefix_path/rplidar_ros2
+[12.782s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.sh
+[12.894s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/ament_prefix_path.dsv
+[12.988s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.sh
+[13.088s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/environment/path.dsv
+[13.192s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.bash
+[13.269s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.sh
+[13.375s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.zsh
+[13.467s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/local_setup.dsv
+[13.600s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.dsv
+[13.673s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/ament_index/resource_index/packages/rplidar_ros2
+[13.778s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.867s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.962s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config.cmake
+[14.066s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/cmake/rplidar_ros2Config-version.cmake
+[14.165s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rplidar_ros2/share/rplidar_ros2/package.xml
+[14.272s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rplidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rplidar_ros2

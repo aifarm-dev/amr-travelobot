@@ -1,0 +1,31 @@
+[0.155s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/odrive_description
+[0.365s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.486s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.521s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.904s] -- Configuring done
+[1.934s] -- Generating done
+[1.941s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/odrive_description
+[1.977s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/odrive_description
+[1.981s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_description -- -j4 -l4
+[2.149s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_description -- -j4 -l4
+[2.310s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_description
+[2.351s] -- Install configuration: ""
+[2.353s] -- Execute custom install script
+[2.361s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf/odrive.ros2_control.xacro
+[2.402s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf/odrive.urdf.xacro
+[2.438s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/package_run_dependencies/odrive_description
+[2.480s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/parent_prefix_path/odrive_description
+[2.525s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/ament_prefix_path.sh
+[2.560s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/ament_prefix_path.dsv
+[2.601s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/path.sh
+[2.638s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/path.dsv
+[2.677s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.bash
+[2.714s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.sh
+[2.752s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.zsh
+[2.789s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.dsv
+[2.832s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.dsv
+[2.871s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/packages/odrive_description
+[2.917s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig.cmake
+[2.951s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig-version.cmake
+[2.984s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.xml
+[3.034s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_description

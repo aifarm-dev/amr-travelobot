@@ -1,0 +1,111 @@
+[0.122s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller
+[0.356s] -- The C compiler identification is GNU 9.4.0
+[0.582s] -- The CXX compiler identification is GNU 9.4.0
+[0.604s] -- Check for working C compiler: /usr/bin/cc
+[0.881s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.885s] -- Detecting C compiler ABI info
+[1.164s] -- Detecting C compiler ABI info - done
+[1.211s] -- Detecting C compile features
+[1.214s] -- Detecting C compile features - done
+[1.226s] -- Check for working CXX compiler: /usr/bin/c++
+[1.537s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.541s] -- Detecting CXX compiler ABI info
+[1.861s] -- Detecting CXX compiler ABI info - done
+[1.910s] -- Detecting CXX compile features
+[1.912s] -- Detecting CXX compile features - done
+[1.930s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.055s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.094s] -- Found controller_interface: 0.10.1 (/opt/ros/foxy/share/controller_interface/cmake)
+[3.327s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.376s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.797s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.988s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.042s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[7.051s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.056s] -- Looking for pthread.h
+[7.351s] -- Looking for pthread.h - found
+[7.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.652s] -- Looking for pthread_create in pthreads
+[7.879s] -- Looking for pthread_create in pthreads - not found
+[7.879s] -- Looking for pthread_create in pthread
+[8.175s] -- Looking for pthread_create in pthread - found
+[8.179s] -- Found Threads: TRUE  
+[9.408s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[9.750s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[9.952s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[10.006s] -- Found tf2_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[10.886s] -- Found ament_cmake_gmock: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[10.901s] -- Found controller_manager: 0.10.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[11.232s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[11.265s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[11.269s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[12.805s] -- Configuring done
+[13.944s] -- Generating done
+[13.971s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller
+[14.115s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller
+[14.125s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller -- -j4 -l4
+[14.882s] [35m[1mScanning dependencies of target gmock[0m
+[14.882s] [35m[1mScanning dependencies of target gmock_main[0m
+[14.893s] [35m[1mScanning dependencies of target diff_drive_controller[0m
+[15.189s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[15.264s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[15.280s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[15.676s] [ 26%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[31.941s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[32.456s] [ 33%] Built target gmock_main
+[55.765s] [ 40%] [32m[1mLinking CXX static library libgmock.a[0m
+[56.253s] [ 40%] Built target gmock
+[81.837s] [ 46%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[82.952s] [ 53%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[84.909s] [ 60%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[87.442s] [ 60%] Built target diff_drive_controller
+[87.487s] [35m[1mScanning dependencies of target test_load_diff_drive_controller[0m
+[87.752s] [ 66%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[103.738s] [ 73%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[105.485s] [ 73%] Built target test_load_diff_drive_controller
+[105.531s] [35m[1mScanning dependencies of target test_diff_drive_controller[0m
+[105.788s] [ 80%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[131.587s] [ 86%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[135.250s] [ 86%] Built target test_diff_drive_controller
+[135.292s] [35m[1mScanning dependencies of target test_accumulator[0m
+[135.367s] [ 93%] [32mBuilding CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o[0m
+[140.178s] [100%] [32m[1mLinking CXX executable test_accumulator[0m
+[140.827s] [100%] Built target test_accumulator
+[140.880s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller -- -j4 -l4
+[141.058s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller
+[141.103s] -- Install configuration: ""
+[141.105s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/diff_drive_plugin.xml
+[141.107s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/include
+[141.108s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/include/diff_drive_controller
+[141.109s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/include/diff_drive_controller/rolling_mean_accumulator.hpp
+[141.111s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/include/diff_drive_controller/visibility_control.h
+[141.112s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/include/diff_drive_controller/odometry.hpp
+[141.114s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/include/diff_drive_controller/speed_limiter.hpp
+[141.116s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp
+[141.118s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[141.147s] -- Set runtime path of "/home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/lib/libdiff_drive_controller.so" to ""
+[141.148s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[141.150s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[141.155s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[141.158s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[141.160s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[141.162s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[141.164s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[141.166s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[141.168s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[141.170s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[141.172s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[141.174s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[141.176s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[141.178s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[141.181s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[141.184s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[141.186s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[141.188s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[141.190s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[141.192s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[141.194s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[141.211s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/src/build/diff_drive_controller

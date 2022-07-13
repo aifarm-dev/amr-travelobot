@@ -1,0 +1,67 @@
+[0.199s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface
+[1.207s] -- The C compiler identification is GNU 9.4.0
+[1.712s] -- The CXX compiler identification is GNU 9.4.0
+[1.761s] -- Check for working C compiler: /usr/bin/cc
+[2.089s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.100s] -- Detecting C compiler ABI info
+[2.398s] -- Detecting C compiler ABI info - done
+[2.449s] -- Detecting C compile features
+[2.451s] -- Detecting C compile features - done
+[2.468s] -- Check for working CXX compiler: /usr/bin/c++
+[2.805s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.815s] -- Detecting CXX compiler ABI info
+[3.152s] -- Detecting CXX compiler ABI info - done
+[3.215s] -- Detecting CXX compile features
+[3.217s] -- Detecting CXX compile features - done
+[3.232s] -- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+[3.428s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.429s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.449s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.490s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[5.273s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.479s] -- Found FastRTPS: /opt/ros/galactic/include  
+[6.040s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.888s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[8.909s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[9.009s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[9.011s] -- Looking for pthread.h
+[9.411s] -- Looking for pthread.h - found
+[9.413s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.843s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.844s] -- Looking for pthread_create in pthreads
+[10.103s] -- Looking for pthread_create in pthreads - not found
+[10.104s] -- Looking for pthread_create in pthread
+[10.387s] -- Looking for pthread_create in pthread - found
+[10.391s] -- Found Threads: TRUE  
+[11.446s] -- Checking for one of the modules 'libusb-1.0'
+[12.389s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[12.731s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.746s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.748s] -- Configured cppcheck include dirs: /home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include
+[12.749s] -- Configured cppcheck exclude dirs and/or files: 
+[12.770s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.771s] -- Configured cpplint exclude dirs and/or files: 
+[12.786s] -- Added test 'lint_cmake' to check CMake code style
+[12.802s] -- Added test 'uncrustify' to check C / C++ code style
+[12.803s] -- Configured uncrustify additional arguments: 
+[12.808s] -- Added test 'xmllint' to check XML markup files
+[12.891s] -- Configuring done
+[13.351s] -- Generating done
+[13.373s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface
+[13.473s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/odrive_hardware_interface
+[13.479s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4
+[14.079s] [35m[1mScanning dependencies of target odrive_usb[0m
+[14.221s] [ 25%] [32mBuilding CXX object CMakeFiles/odrive_usb.dir/src/odrive_usb.cpp.o[0m
+[19.402s] [ 50%] [32m[1mLinking CXX shared library libodrive_usb.so[0m
+[20.366s] [ 50%] Built target odrive_usb
+[20.470s] [35m[1mScanning dependencies of target odrive_hardware_interface[0m
+[20.934s] [ 75%] [32mBuilding CXX object CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o[0m
+[21.544s] In file included from [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/src/odrive_hardware_interface.cpp:15[m[K:
+[21.545s] [01m[K/home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_hardware_interface/include/odrive_hardware_interface/odrive_hardware_interface.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Khardware_interface/base_interface.hpp: No such file or directory
+[21.546s]    20 | #include [01;31m[K"hardware_interface/base_interface.hpp"[m[K
+[21.547s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.548s] compilation terminated.
+[21.560s] make[2]: *** [CMakeFiles/odrive_hardware_interface.dir/build.make:63: CMakeFiles/odrive_hardware_interface.dir/src/odrive_hardware_interface.cpp.o] Error 1
+[21.562s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/odrive_hardware_interface.dir/all] Error 2
+[21.562s] make: *** [Makefile:141: all] Error 2
+[21.576s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_hardware_interface -- -j4 -l4

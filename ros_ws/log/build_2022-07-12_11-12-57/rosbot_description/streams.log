@@ -1,0 +1,74 @@
+[0.159s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/rosbot_description -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/rosbot_description
+[1.137s] -- The C compiler identification is GNU 9.4.0
+[1.689s] -- The CXX compiler identification is GNU 9.4.0
+[1.710s] -- Check for working C compiler: /usr/bin/cc
+[2.044s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.046s] -- Detecting C compiler ABI info
+[2.351s] -- Detecting C compiler ABI info - done
+[2.404s] -- Detecting C compile features
+[2.406s] -- Detecting C compile features - done
+[2.416s] -- Check for working CXX compiler: /usr/bin/c++
+[2.761s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.766s] -- Detecting CXX compiler ABI info
+[3.119s] -- Detecting CXX compiler ABI info - done
+[3.179s] -- Detecting CXX compile features
+[3.181s] -- Detecting CXX compile features - done
+[3.211s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[3.372s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.373s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.172s] -- Configuring done
+[4.181s] -- Generating done
+[4.185s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/rosbot_description
+[4.208s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/rosbot_description -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/rosbot_description
+[4.212s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rosbot_description -- -j4 -l4
+[4.381s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rosbot_description -- -j4 -l4
+[4.535s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rosbot_description
+[4.577s] -- Install configuration: ""
+[4.577s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config
+[4.581s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/navigation.yaml
+[4.582s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/ekf2.yaml
+[4.583s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/slam_toolbox_localization.yaml
+[4.585s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/teleop_bluetooth.yaml
+[4.587s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/slam_toolbox_mapping.yaml
+[4.588s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/diff_drive_controller.yaml
+[4.590s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/bno055.yaml
+[4.592s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/navigate_w_replanning_and_recovery.xml
+[4.593s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/ekf.yaml
+[4.594s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/localization.yaml
+[4.595s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/teleop_usb.yaml
+[4.596s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/config/slam_toolbox_lifelong.yaml
+[4.598s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/rviz
+[4.598s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/rviz/rosbot.rviz
+[4.600s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/gazebo
+[4.601s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/gazebo/rosbot.materials.xacro
+[4.602s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/gazebo/rosbot.gazebo.xacro
+[4.603s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/ros2_control
+[4.603s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/ros2_control/rosbot_system.ros2_control.xacro
+[4.604s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/urdf
+[4.605s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot_links.urdf.xacro
+[4.607s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/urdf/inertia.urdf.xacro
+[4.612s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/urdf/rosbot.urdf.xacro
+[4.615s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/world
+[4.615s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/world/office.sdf
+[4.616s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/world/simple.sdf
+[4.618s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/map
+[4.618s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/map/office.posegraph
+[4.889s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/map/office.data
+[4.994s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/map/office.pgm
+[5.002s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/map/office.yaml
+[5.007s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/ament_index/resource_index/package_run_dependencies/rosbot_description
+[5.008s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/ament_index/resource_index/parent_prefix_path/rosbot_description
+[5.013s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.sh
+[5.014s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/environment/ament_prefix_path.dsv
+[5.016s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/environment/path.sh
+[5.017s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/environment/path.dsv
+[5.019s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/local_setup.bash
+[5.020s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/local_setup.sh
+[5.021s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/local_setup.zsh
+[5.021s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/local_setup.dsv
+[5.022s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.dsv
+[5.023s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/ament_index/resource_index/packages/rosbot_description
+[5.025s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig.cmake
+[5.026s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/cmake/rosbot_descriptionConfig-version.cmake
+[5.029s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/rosbot_description/share/rosbot_description/package.xml
+[5.050s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rosbot_description

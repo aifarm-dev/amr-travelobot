@@ -1,0 +1,111 @@
+[0.067s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_controllers/joint_trajectory_controller -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller
+[0.302s] -- The C compiler identification is GNU 9.4.0
+[0.532s] -- The CXX compiler identification is GNU 9.4.0
+[0.555s] -- Check for working C compiler: /usr/bin/cc
+[0.841s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.846s] -- Detecting C compiler ABI info
+[1.139s] -- Detecting C compiler ABI info - done
+[1.195s] -- Detecting C compile features
+[1.198s] -- Detecting C compile features - done
+[1.210s] -- Check for working CXX compiler: /usr/bin/c++
+[1.695s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.699s] -- Detecting CXX compiler ABI info
+[2.031s] -- Detecting CXX compiler ABI info - done
+[2.085s] -- Detecting CXX compile features
+[2.088s] -- Detecting CXX compile features - done
+[2.106s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.234s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.235s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.457s] -- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+[3.554s] -- Found controller_interface: 0.10.1 (/opt/ros/foxy/share/controller_interface/cmake)
+[3.870s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.929s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.398s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.604s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.146s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.354s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.355s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.356s] -- Looking for pthread.h
+[8.592s] -- Looking for pthread.h - found
+[8.595s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.892s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.895s] -- Looking for pthread_create in pthreads
+[9.135s] -- Looking for pthread_create in pthreads - not found
+[9.138s] -- Looking for pthread_create in pthread
+[9.431s] -- Looking for pthread_create in pthread - found
+[9.435s] -- Found Threads: TRUE  
+[10.836s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[11.330s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[11.346s] -- Found controller_manager: 0.10.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[11.683s] -- Found ros2_control_test_assets: 0.10.1 (/opt/ros/foxy/share/ros2_control_test_assets/cmake)
+[11.702s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[11.713s] -- Check if compiler accepts -pthread
+[12.012s] -- Check if compiler accepts -pthread - yes
+[13.087s] -- Configuring done
+[13.656s] -- Generating done
+[13.669s] -- Build files have been written to: /home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller
+[13.718s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/ros2_controllers/joint_trajectory_controller -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller
+[13.728s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller -- -j4 -l4
+[13.909s] [35m[1mScanning dependencies of target joint_trajectory_controller[0m
+[14.177s] [  6%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[51.099s] [ 13%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[53.601s] [ 20%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[55.974s] [ 20%] Built target joint_trajectory_controller
+[56.090s] [35m[1mScanning dependencies of target gtest_main[0m
+[56.246s] [ 26%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[60.522s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[60.697s] [ 33%] Built target gtest_main
+[60.750s] [35m[1mScanning dependencies of target gtest[0m
+[60.831s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[77.277s] [ 46%] [32m[1mLinking CXX static library libgtest.a[0m
+[77.557s] [ 46%] Built target gtest
+[77.628s] [35m[1mScanning dependencies of target test_trajectory[0m
+[77.780s] [ 53%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[84.367s] [ 60%] [32m[1mLinking CXX executable test_trajectory[0m
+[86.854s] [ 60%] Built target test_trajectory
+[86.911s] [35m[1mScanning dependencies of target test_trajectory_actions[0m
+[87.242s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[126.501s] [ 73%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[130.455s] [ 73%] Built target test_trajectory_actions
+[130.506s] [35m[1mScanning dependencies of target test_load_joint_trajectory_controller[0m
+[130.803s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[157.050s] [ 86%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[158.646s] [ 86%] Built target test_load_joint_trajectory_controller
+[158.705s] [35m[1mScanning dependencies of target test_trajectory_controller[0m
+[158.987s] [ 93%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[206.649s] [100%] [32m[1mLinking CXX executable test_trajectory_controller[0m
+[211.535s] [100%] Built target test_trajectory_controller
+[211.626s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller -- -j4 -l4
+[214.992s] Invoking command in '/home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller
+[215.043s] -- Install configuration: ""
+[215.045s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/joint_trajectory_plugin.xml
+[215.050s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/include
+[215.051s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/include/joint_trajectory_controller
+[215.053s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/include/joint_trajectory_controller/tolerances.hpp
+[215.055s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/include/joint_trajectory_controller/visibility_control.h
+[215.056s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/include/joint_trajectory_controller/trajectory.hpp
+[215.058s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/include/joint_trajectory_controller/joint_trajectory_controller.hpp
+[215.063s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so
+[215.094s] -- Set runtime path of "/home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/lib/libjoint_trajectory_controller.so" to ""
+[215.096s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.sh
+[215.098s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/library_path.dsv
+[215.105s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/ament_index/resource_index/package_run_dependencies/joint_trajectory_controller
+[215.108s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/ament_index/resource_index/parent_prefix_path/joint_trajectory_controller
+[215.111s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.sh
+[215.113s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/ament_prefix_path.dsv
+[215.115s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.sh
+[215.117s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/environment/path.dsv
+[215.119s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.bash
+[215.121s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.sh
+[215.123s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.zsh
+[215.127s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/local_setup.dsv
+[215.130s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/package.dsv
+[215.132s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/ament_index/resource_index/packages/joint_trajectory_controller
+[215.135s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_trajectory_controller
+[215.138s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[215.142s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[215.144s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[215.145s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake
+[215.147s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+[215.149s] -- Installing: /home/dr/amr-travelobot/ros_ws/src/install/joint_trajectory_controller/share/joint_trajectory_controller/package.xml
+[215.169s] Invoked command in '/home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/src/build/joint_trajectory_controller

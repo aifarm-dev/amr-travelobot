@@ -1,0 +1,24 @@
+-- Found ament_cmake_auto: 1.1.5 (/opt/ros/galactic/share/ament_cmake_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dr/amr-travelobot/ros_ws/build/odrive_description
+-- Install configuration: ""
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf
+-- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf/odrive.ros2_control.xacro
+-- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf/odrive.urdf.xacro
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/package_run_dependencies/odrive_description
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/parent_prefix_path/odrive_description
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/ament_prefix_path.sh
+-- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/path.sh
+-- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/path.dsv
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.bash
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.sh
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.zsh
+-- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.dsv
+-- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.dsv
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/packages/odrive_description
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig.cmake
+-- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig-version.cmake
+-- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.xml

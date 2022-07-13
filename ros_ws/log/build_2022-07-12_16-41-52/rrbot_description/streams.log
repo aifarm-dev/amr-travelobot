@@ -1,0 +1,36 @@
+[1.467s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rrbot_description -- -j4 -l4
+[1.884s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/rrbot_description -- -j4 -l4
+[2.033s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/rrbot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rrbot_description
+[2.078s] -- Install configuration: ""
+[2.081s] -- Execute custom install script
+[2.088s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/config/rrbot.rviz
+[2.096s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.gazebo.xacro
+[2.097s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/gazebo/rrbot.materials.xacro
+[2.101s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/meshes/hokuyo.dae
+[2.104s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/launch/view_robot.launch.py
+[2.108s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot.ros2_control.xacro
+[2.111s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_multi_interface.ros2_control.xacro
+[2.113s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_position_only.ros2_control.xacro
+[2.117s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/ros2_control/rrbot_system_with_sensor.ros2_control.xacro
+[2.120s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot.urdf.xacro
+[2.122s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_description.urdf.xacro
+[2.123s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_multi_interface.urdf.xacro
+[2.129s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_position_only.urdf.xacro
+[2.138s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/urdf/rrbot_system_with_sensor.urdf.xacro
+[2.143s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/environment/rrbot_description.dsv
+[2.143s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/ament_index/resource_index/package_run_dependencies/rrbot_description
+[2.152s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/ament_index/resource_index/parent_prefix_path/rrbot_description
+[2.153s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.sh
+[2.153s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/environment/ament_prefix_path.dsv
+[2.154s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/environment/path.sh
+[2.154s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/environment/path.dsv
+[2.157s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/local_setup.bash
+[2.158s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/local_setup.sh
+[2.168s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/local_setup.zsh
+[2.168s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/local_setup.dsv
+[2.170s] -- Symlinking: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/package.dsv
+[2.252s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/ament_index/resource_index/packages/rrbot_description
+[2.255s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig.cmake
+[2.257s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/cmake/rrbot_descriptionConfig-version.cmake
+[2.260s] -- Up-to-date symlink: /home/dr/amr-travelobot/ros_ws/install/rrbot_description/share/rrbot_description/package.xml
+[2.277s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/ros2_control_test_nodes:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/foxy /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/rrbot_description

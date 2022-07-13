@@ -1,0 +1,23 @@
+[0.246s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_description -- -j4 -l4
+[0.819s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/odrive_description -- -j4 -l4
+[0.971s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_description
+[1.007s] -- Install configuration: ""
+[1.008s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf
+[1.009s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf/odrive.ros2_control.xacro
+[1.010s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/urdf/odrive.urdf.xacro
+[1.011s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/package_run_dependencies/odrive_description
+[1.012s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/parent_prefix_path/odrive_description
+[1.016s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/ament_prefix_path.sh
+[1.016s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/ament_prefix_path.dsv
+[1.017s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/path.sh
+[1.018s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/environment/path.dsv
+[1.019s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.bash
+[1.019s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.sh
+[1.020s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.zsh
+[1.020s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/local_setup.dsv
+[1.021s] -- Installing: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.dsv
+[1.022s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/ament_index/resource_index/packages/odrive_description
+[1.024s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig.cmake
+[1.025s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/cmake/odrive_descriptionConfig-version.cmake
+[1.026s] -- Up-to-date: /home/dr/amr-travelobot/ros_ws/install/odrive_description/share/odrive_description/package.xml
+[1.041s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/odrive_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dr/amr-travelobot/ros_ws/install/bno055:/opt/ros/galactic /usr/bin/cmake --install /home/dr/amr-travelobot/ros_ws/build/odrive_description

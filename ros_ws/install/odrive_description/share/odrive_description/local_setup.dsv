@@ -1,2 +1,1 @@
-source;share/odrive_description/environment/ament_prefix_path.sh
-source;share/odrive_description/environment/path.sh
+/home/dr/amr-travelobot/ros_ws/build/odrive_description/ament_cmake_environment_hooks/local_setup.dsv
