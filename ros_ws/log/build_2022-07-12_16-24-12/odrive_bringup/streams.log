@@ -1,4 +1,0 @@
-[0.350s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/odrive_bringup': AMENT_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dr/amr-travelobot/ros_ws/install/odrive_description:/opt/ros/foxy /usr/bin/cmake /home/dr/amr-travelobot/ros_ws/src/odrive_ros2_control/odrive_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dr/amr-travelobot/ros_ws/install/odrive_bringup
-[0.648s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
-[0.986s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
-[4.065s] -- Override CMake install command with custom implementation using symlinks instead of copying resources

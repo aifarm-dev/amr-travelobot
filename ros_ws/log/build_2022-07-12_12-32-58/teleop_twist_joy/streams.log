@@ -1,4 +1,0 @@
-[0.268s] Invoking command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy -- -j4 -l4
-[0.601s] [ 50%] Built target teleop_twist_joy
-[0.715s] [100%] Built target teleop_twist_joy_node
-[1.663s] Invoked command in '/home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/dr/amr-travelobot/ros_ws/build/teleop_twist_joy -- -j4 -l4
