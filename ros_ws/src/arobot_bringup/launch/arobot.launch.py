@@ -30,7 +30,7 @@ def generate_launch_description():
                 [
                     FindPackageShare("arbot_description"),
                     "urdf",
-                    "rrbot.urdf.xacro",
+                    "arbot.urdf.xacro",
                 ]
             ),
         ]
