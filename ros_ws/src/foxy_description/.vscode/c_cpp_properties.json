@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/foxy/include/**",
+        "/home/ngy/omo_foxy/src/foxy_description/include/**",
+        "/home/ngy/omo_foxy/src/omo_bringup/include/**",
+        "/home/ngy/omo_foxy/src/omo_cartographer/include/**",
+        "/home/ngy/omo_foxy/src/omo_navigation2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

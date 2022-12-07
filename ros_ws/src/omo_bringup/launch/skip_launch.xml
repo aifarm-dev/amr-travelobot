@@ -1,0 +1,5 @@
+<launch>
+<include file="$(find-pkg-share omo_bringup)/launch/omo_bringup.launch.py"/>
+<include file="$(find-pkg-share omo_bringup)/launch/online_async_launch.py"/>
+
+</launch>
